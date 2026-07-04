@@ -54,3 +54,8 @@ Si le programme refuse de démarrer :
 .Vérifie que le fichier principal s’appelle bien main.py.
 .Vérifie que Termux:API est installé.
 .Vérifie qu’aucune ligne n’a été cassée lors du copier-coller.
+
+Auteur:
+
+Développeur : Housseini
+Nom du projet : HACKER UNION AI
