@@ -2,7 +2,7 @@
 
 HACKER UNION AI est un script Python pour Termux qui analyse l’appareil, affiche des informations système et propose des profils de jeu pour BGMI et Free Fire.
 
-## Fonctionnalités
+## Fonctionnalités:
 
 - Analyse BGMI.
 - Analyse Free Fire.
@@ -12,7 +12,7 @@ HACKER UNION AI est un script Python pour Termux qui analyse l’appareil, affic
 - Recommandations FPS.
 - Analyse batterie et température.
 
-## Prérequis
+## Prérequis:
 
 Avant de lancer le script, installe :
 
@@ -22,7 +22,7 @@ Avant de lancer le script, installe :
 - Termux:API.
 - Le paquet `termux-api` dans Termux.
 
-## Installation
+## Installation:
 
 ```bash
 pkg update && pkg upgrade -y
@@ -31,7 +31,7 @@ git clone https://github.com/housseini1960/hacker-union-ai.git
 cd hacker-union-ai
 python main.py
 
-Utilisation
+Utilisation:
 
 Une fois le programme lancé :
 .Choisis 1 pour BGMI.
@@ -40,3 +40,17 @@ Une fois le programme lancé :
 .Choisis 4 pour le booster.
 .Choisis 5 pour voir les informations du projet.
 .Choisis 6 pour quitter.
+
+Notes:
+
+Le script utilise des commandes Android/Termux comme getprop, settings, et termux-battery-status.
+Certaines fonctions peuvent dépendre des autorisations Android et de Termux:API.
+Le script doit être exécuté dans Termux sur Android.
+
+Dépannage:
+
+Si le programme refuse de démarrer :
+.Vérifie que Python est bien installé.
+.Vérifie que le fichier principal s’appelle bien main.py.
+.Vérifie que Termux:API est installé.
+.Vérifie qu’aucune ligne n’a été cassée lors du copier-coller.
