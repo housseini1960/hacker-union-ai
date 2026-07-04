@@ -151,17 +151,17 @@ def jarvis_scan():
         print("║      🤖 HACKER UNION AI ANALYZING... 🤖       ║")
         print("╚══════════════════════════════════════╝")
         print("\u001B[0m")
-        print("
-" + text + "
-")
+        print(
+ text 
+)
         filled = "■" * (percent // 10)
         empty = "□" * (10 - percent // 10)
         color = "\u001B[1;33m" if percent < 100 else "\u001B[1;32m"
         print(f"{color}[{filled}{empty}] {percent}%\u001B[0m")
         time.sleep(1.5)
 
-    print("
-\u001B[1;92m✅ ANALYSIS COMPLETE\u001B[0m")
+    print(
+"\u001B[1;92m✅ ANALYSIS COMPLETE\u001B[0m")
     print("\u001B[1;36m📋 Loading Results...\u001B[0m")
     time.sleep(1)
     os.system("clear")
